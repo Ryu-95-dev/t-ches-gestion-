@@ -1,5 +1,5 @@
 // Hors ligne : réseau d'abord (pour recevoir les mises à jour), cache en secours.
-const CACHE = 'taches-v1';
+const CACHE = 'taches-v2';
 const ASSETS = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
